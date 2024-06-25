@@ -1,14 +1,14 @@
 {
   "name": "full-squircles",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Squircles implemented with CSS Painting API that allow using border and background",
 
-  "source": "src/squircle.ts",
-  "main": "dist/lib/squircle.js",
+  "source": "src/squircles.ts",
+  "main": "dist/lib/squircles.js",
 
   "scripts": {
     "dev": "npx parcel",
-    "build": "rm -rf ./dist && parcel build src/squircle.ts"
+    "build": "rm -rf ./dist && npx parcel build --no-cache --dist-dir ./dist --target lib --no-source-maps"
   },
 
   "targets": {
@@ -16,7 +16,7 @@
       "source": "dev/index.html"
     },
     "lib": {
-      "source": "src/squircle.ts"
+      "source": "src/squircles.ts"
     }
   },
 
