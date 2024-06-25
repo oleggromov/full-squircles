@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squircle dev</title>
+  <style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body.squircles-on .test {
+    --squircle-radius: 60px;
+    --squircle-smooth: 8;
+    --squircle-background-color: green;
+    --squircle-border-color: red;
+    --squircle-border-width: 10px;
+    background: paint(squircle);
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="test">
+      Squircle
+    </div>
+  </div>
+  <script src="./init.ts" type="module"></script>
+</body>
+</html>
