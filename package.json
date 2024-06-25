@@ -1,6 +1,6 @@
 {
   "name": "full-squircles",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Squircles implemented with CSS Painting API that allow using border and background",
 
   "source": "src/squircles.ts",
