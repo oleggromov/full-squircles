@@ -8,8 +8,7 @@
 
   "scripts": {
     "dev": "npx parcel",
-    "build": "rm -rf ./dist && npx parcel build --no-cache --dist-dir ./dist --target lib --no-source-maps",
-    "publish": "npm run build && npm publish"
+    "build": "rm -rf ./dist && npx parcel build --no-cache --dist-dir ./dist --target lib --no-source-maps"
   },
 
   "targets": {
